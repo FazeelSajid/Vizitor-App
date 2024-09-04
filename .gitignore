@@ -25,6 +25,8 @@ DerivedData
 # Android/IntelliJ
 #
 build/
+android/app/build/
+
 .idea
 .gradle
 local.properties
@@ -52,6 +54,11 @@ yarn-error.log
 **/fastlane/screenshots
 **/fastlane/test_output
 
+
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+android/.gradle
 # Bundle artifact
 *.jsbundle
 
