@@ -1,0 +1,1 @@
+export  const bUrl = "https://appdev.vizitr.com/APIDev"
