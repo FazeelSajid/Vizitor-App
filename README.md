@@ -1,79 +1,61 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Vizitor App Overview
 
-# Getting Started
+**Vizitor App** was developed to provide an efficient and seamless platform for users to connect and manage appointments. The app supports two distinct roles: visitors and companies/individuals. Visitors can view available slots and book appointments with registered companies or individuals. The project emphasizes an intuitive interface, real-time availability, and robust scheduling capabilities.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## **Project Details**
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **Roles:** Visitor & Company/Individual  
+- **Client:** Mtechub LTD  
+- **Timeline:** 4 Weeks  
+- **Collaboration:** Solo Development  
+- **Objective:** Mobile App with Appointment System  
+- **Platform:** Mobile App (React Native)  
 
-To start Metro, run the following command from the _root_ of your React Native project:
+---
 
-```bash
-# using npm
-npm start
+## **Key Features**
 
-# OR using Yarn
-yarn start
-```
+- **User Registration:** Separate login and registration for visitors and companies/individuals.  
+- **Dynamic Appointment Booking:** Visitors can view available slots and book appointments seamlessly.  
+- **Real-Time Availability Management:** Companies/individuals can manage their schedule, blocking out unavailable slots.  
+- **Responsive Design:** Ensures a smooth user experience across devices.  
+- **Admin Panel Integration:** For moderation and managing platform operations.  
 
-## Step 2: Start your Application
+---
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## **Approach and Expertise**
 
-### For Android
+1. **Understand Goal:**  
+   Identified the need for a streamlined appointment booking platform with a user-friendly interface.  
 
-```bash
-# using npm
-npm run android
+2. **Gathering Data:**  
+   Conducted research to understand user behavior and best practices for appointment management apps.  
 
-# OR using Yarn
-yarn android
-```
+3. **Designing and Development:**  
+   Designed wireframes in Figma and implemented the app in React Native, ensuring cross-platform compatibility (iOS & Android).  
 
-### For iOS
+4. **Testing and Optimization:**  
+   Conducted rigorous testing to ensure smooth navigation and real-time updates for users.  
 
-```bash
-# using npm
-npm run ios
+---
 
-# OR using Yarn
-yarn ios
-```
+### **Bonuses Delivered**
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- **Real-Time Updates:** Integrated live scheduling updates to ensure no double bookings.  
+- **Comprehensive Documentation:** Provided detailed user and admin manuals for easy understanding.  
+- **Post-Launch Support:** Offered a 30-day maintenance package to handle user feedback and initial adjustments.  
+- **Complete Postman API Documentation:** Included API documentation for seamless backend integration.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+---
 
-## Step 3: Modifying your App
+### **Figma Design**
 
-Now that you have successfully run the app, let's modify it.
+[Vizitor App Figma Design](https://www.figma.com/design/FcVcTxgYxzZ2KSATTTNess/vizitr?node-id=812-2299&t=CHjFiqyDKw4gCj9A-0)
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+---
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### **APK File**
+[Vizitor App APK](https://drive.google.com/file/d/18X3afc2jWcBxSntl0h8JWSJrlPamv84p/view?usp=sharing)
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
