@@ -11,7 +11,7 @@ import {
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
 import {COLORS} from '../../../Constants/COLORS';
-import useAppStates from '../../../ReduxToolkit/Hooks/AppHooks/useAppStates/useAppStates';
+// import useAppStates from '../../../ReduxToolkit/Hooks/AppHooks/useAppStates/useAppStates';
 
 const Onboarding = ({navigation}) => {
   const [currentPage, setCurrentPage] = useState(0); // Track the current page index

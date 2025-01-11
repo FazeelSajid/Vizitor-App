@@ -8,16 +8,16 @@ import {
   } from 'react-native-responsive-screen';
 import { COLORS } from '../../Constants/COLORS';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import useAuthStates from '../../ReduxToolkit/Hooks/AuthHooks/StateHooks/useAuthStates';
-import { formatIncompletePhoneNumber } from 'libphonenumber-js';
+// import useAuthStates from '../../ReduxToolkit/Hooks/AuthHooks/StateHooks/useAuthStates';
+// import { formatIncompletePhoneNumber } from 'libphonenumber-js';
 
 const CountryCodePicker = ({ phoneNumber, customStyle, setState, state }) => {
     // const [callingCode, setCallingCode] = useState('1');
     // const [countryName, setCountryName] = useState('United States');
     // const [isPickerVisible, setPickerVisible] = useState(false);
-    const {authState, setAuthState} = useAuthStates()
+    // const {authState, setAuthState} = useAuthStates()
     // const [phoneNumber, setPhoneNumber] = useState('');
-    const [formattedPhoneNumber, setFormattedPhoneNumber] = useState('');
+    // const [formattedPhoneNumber, setFormattedPhoneNumber] = useState('');
 
     const handleCountrySelect = useCallback((country) => {
         // (country.cca2);
